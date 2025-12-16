@@ -1,7 +1,6 @@
 import sys
 from sqlalchemy import String, Float, ForeignKey
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
-from database import engine
 
 sys.stdout.reconfigure(encoding='utf-8')
 
