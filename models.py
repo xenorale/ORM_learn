@@ -37,5 +37,3 @@ class Order(Base):
     item: Mapped["Item"] = relationship()
     def __repr__(self):
         return f'Order(id={self.id}, amount={self.amount})'
-
-Base.metadata.create_all(engine)
